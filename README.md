@@ -70,15 +70,7 @@ Firebase is a powerful cloud platform that provides a range of services for buil
 
 1. Update the Firebase project configuration in the `main.py` file with your own project credentials.
 
-2. Run the Python script:
-
-   ```bash
-
-   python main.py
-
-   ```
-
-3. Follow the prompts in the terminal to perform CRUD operations in Firebase.
+2. Run the Python Notebook `main.ipynb` to perform CRUD operations in Firebase.
 
 ## Author
 

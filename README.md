@@ -53,15 +53,15 @@ Firebase is a powerful cloud platform that provides a range of services for buil
 
    ```
 
-5. Install the required dependencies:
+<!-- 5. Install the required dependencies:
 
    ```bash
 
     pip install -r requirements.txt
 
-   ```
+   ``` -->
 
-6. Configure Firebase Admin SDK:
+5. Configure Firebase Admin SDK:
    - Generate a private key file (service account key) in your Firebase project settings.
    - Rename the generated JSON file to `serviceAccountKey.json`.
    - Place the `serviceAccountKey.json` file in the project directory.

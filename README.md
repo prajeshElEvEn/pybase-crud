@@ -21,23 +21,47 @@ Firebase is a powerful cloud platform that provides a range of services for buil
 
 ## Installation
 
-1. Clone the repository:
+1. Fork and clone the [repository](https://github.com/prajeshElEvEn/pybase-crud):
+
+   ```bash
+
+   git clone <repo_url>
 
    ```
 
-   git clone <https://github.com/your-username/firebase-python-crud.git>
+2. Navigate to the project directory:
+
+   ```bash
+
+   cd pybase-crud
 
    ```
 
-2. Install the required dependencies:
+3. Create a virtual environment:
+
+   ```bash
+
+   python -m venv venv
 
    ```
 
-   pip install firebase-admin
+4. Activate the virtual environment:
+
+   ```bash
+
+   source venv/bin/activate
 
    ```
 
-3. Configure Firebase Admin SDK:
+5. Install the required dependencies:
+
+   ```bash
+
+    pip install -r requirements.txt
+
+   ```
+
+6. Configure Firebase Admin SDK:
    - Generate a private key file (service account key) in your Firebase project settings.
    - Rename the generated JSON file to `serviceAccountKey.json`.
    - Place the `serviceAccountKey.json` file in the project directory.
@@ -48,10 +72,14 @@ Firebase is a powerful cloud platform that provides a range of services for buil
 
 2. Run the Python script:
 
-   ```
+   ```bash
 
    python main.py
 
    ```
 
 3. Follow the prompts in the terminal to perform CRUD operations in Firebase.
+
+## Author
+
+[@prajesh](https://github.com/prajeshElEvEn)
